@@ -4,7 +4,7 @@ import "./landHeader.scss"
 
 function LandHeader() {
   return (
-    <>
+    <div className="landpage">
       <Container fluid>
         <div className="center-text">
             <h1>Não deixe de cozinhar pela a falta de Gás</h1>
@@ -14,7 +14,7 @@ function LandHeader() {
             </Button>
         </div>
       </Container>
-    </>
+    </div>
   );
 }
 

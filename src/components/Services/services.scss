@@ -1,0 +1,23 @@
+.services {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-top: 7%;
+
+  h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 3%;
+  }
+
+  .card {
+    height: 110%;
+
+    img {
+      height: 40%;
+    }
+
+    p {
+      font-size: 14.5px;
+    }
+  }
+}
