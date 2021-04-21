@@ -17,7 +17,7 @@ function Services() {
         <h2>Serviços</h2>
         <Row>
           <Col sm={1}/>
-          <Col className="card1">
+          <Col>
             <Card>
               <CardImg top width="100%" src={Pipe} alt="Tubulação" />
               <CardBody>
