@@ -48,6 +48,7 @@ function NavbarLand() {
       className={classnames("fixed-top", navbarColor)}
       color-on-scroll="300"
       expand="lg"
+      style={{width:"95vw"}}
     >
       <Container>
           <NavbarBrand

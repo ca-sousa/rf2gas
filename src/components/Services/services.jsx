@@ -14,7 +14,7 @@ function Services() {
   return (
     <div className="services">
       <Container fluid>
-        <h2>Serviços</h2>
+        <h1>Serviços</h1>
         <Row>
           <Col sm={1}/>
           <Col>
