@@ -16,7 +16,6 @@ body {
   --color-secundary: #a31d36;
   --color-tertiary: #69686b;
   --color-title-in-primary: #ffffff;
-  --color-text-base: #000000;
   --color-text-: #000000;
 }
 
@@ -27,4 +26,6 @@ body {
   list-style: none;
   border: 0;
   font-family: "Montserrat", sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
