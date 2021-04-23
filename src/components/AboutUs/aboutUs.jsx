@@ -18,8 +18,37 @@ function AboutUs() {
                         <img src={Logo} alt="logo"/>
                     </Col>
                 </Row>
-                <Row className="instagram">
+                <Row className="footer">
+                    <Col md={2}/>
+                    <Col>
+                        <h3>Conheça nossas redes sociais</h3>
+                        <a href="https://www.instagram.com/rf2gas/" target="blank">
+                            <i className="fa fa-instagram"></i>
+                            @rf2gas
+                        </a>
+                        <br/> <br />
+                        <a href="https://api.whatsapp.com/send?phone=5511982619325" target="blank">
+                            <i className="fa fa-whatsapp"></i>
+                             +55 11 98261-9325
+                        </a>
+                    </Col>
+                    <Col>
+                        <div className="second-column">
+                            <a href="https://www.facebook.com/RF2GAS" target="blank">
+                                <i className="fa fa-facebook"></i>
+                                /rf2gas
+                            </a>
+                            <br/> <br />
+                            <a href="mailto:rf2gas@gmail.com?subject=Orçamento%20RF2Gás" target="blank">
+                                <i className="fa fa-envelope"></i>
+                                rf2gas@gmail.com
+                            </a>
+                            <p>Atendimento 24h</p>
+                        </div>
+                    </Col>
+                    <Col md={2} />
                 </Row>
+                
             </Container>
         </div>
     );
