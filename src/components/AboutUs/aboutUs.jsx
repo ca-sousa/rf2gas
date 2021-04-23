@@ -5,7 +5,7 @@ import "./aboutUs.scss";
   
 function AboutUs() {
     return (
-        <div className="about-us">
+        <div className="about-us" id="aboutus">
             <Container fluid style={{backgroundColor: "#a31d36"}}>
                 <Row>
                     <Col md={9} className="text">

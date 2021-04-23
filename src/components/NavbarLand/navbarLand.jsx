@@ -51,12 +51,7 @@ function NavbarLand() {
       style={{width:"95vw"}}
     >
       <Container>
-          <NavbarBrand
-            data-placement="bottom"
-            to="#"
-            target="_blank"
-            title="Coded by Creative Tim"
-          >
+          <NavbarBrand href="#landpage">
             <img src={Logo} style={{width:"15vw"}} alt="rf2gas"/> 
           </NavbarBrand>
           <button
@@ -77,29 +72,22 @@ function NavbarLand() {
         >
           <Nav className="nav-a">
             <NavItem>
-              <NavLink to="#servicos">
+              <NavLink href="#services">
                 Serviços
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#quemsomos" >
+              <NavLink href="#aboutus" >
                 Quem Somos
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#nossotrabalho" >
-                Nosso Trabalho
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://api.whatsapp.com/send?phone=5511982619325"
                 target="_blank"
-                title="Follow us on Instagram"
+                title="Faça seu orçamento conosco"
               >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
+                <i className="fa fa-whatsapp" />
               </NavLink>
             </NavItem>
           </Nav>
