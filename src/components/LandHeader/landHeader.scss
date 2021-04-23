@@ -24,7 +24,14 @@
 
     .btn-know-more {
       border-color: var(--color-background-secundary);
+      border-width: 2px;
       color: var(--color-background-secundary);
+      font-weight: 700;
+    }
+    .btn-know-more:hover {
+      color: var(--color-secundary);
+      border-color: var(--color-secundary);
+      background-color: transparent;
     }
   }
 }
