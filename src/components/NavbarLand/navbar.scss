@@ -1,7 +1,31 @@
-.nav-link {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--color-background-secundary) !important;
-  font-size: 0.9rem;
-  font-weight: 700;
+.navbar-color {
+  border-bottom: 10px #a31d36;
+
+  .nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-secundary) !important;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    i {
+      font-size: 1.3rem;
+      color: #34af23;
+    }
+  }
+}
+
+.navbar-transparent {
+  .nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-background-secundary) !important;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    i {
+      font-size: 1.3rem;
+      color: #34af23;
+    }
+  }
 }
