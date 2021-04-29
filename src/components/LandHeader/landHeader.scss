@@ -13,13 +13,25 @@
     color: var(--color-title-in-primary);
     letter-spacing: 4px;
 
+    @media screen and (max-width: 768px) {
+      padding-top: 90%;
+    }
+
     h1 {
       font-weight: 400;
+      @media screen and (max-width: 768px) {
+        font-size: 18px;
+        padding-right: 2%;
+      }
     }
 
     h3 {
       font-weight: 300;
       padding-bottom: 1%;
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+        padding-right: 2%;
+      }
     }
 
     .btn-know-more {
@@ -27,6 +39,9 @@
       border-width: 2px;
       color: var(--color-background-secundary);
       font-weight: 700;
+      @media screen and (max-width: 768px) {
+        font-size: 15px;
+      }
     }
     .btn-know-more:hover {
       color: var(--color-secundary);
