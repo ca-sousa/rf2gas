@@ -47,15 +47,15 @@ function NavbarLand() {
             data-placement="bottom"
             href="#landpage"
           >
-            <img src={Logo} style={{width:"15vw"}} alt="rf2gas"/> 
+            <img src={Logo}  alt="rf2gas" id="img-logo"/> 
           </NavbarBrand>
           <Nav className="nav-a">
-            <NavItem>
+            <NavItem id="services">
               <NavLink href="#services">
                 Serviços
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem id="aboutus">
               <NavLink href="#aboutus" >
                 Quem Somos
               </NavLink>

@@ -1,6 +1,4 @@
 .navbar-color {
-  border-bottom: 10px #a31d36;
-
   .nav-link {
     text-transform: uppercase;
     text-decoration: none;
@@ -13,9 +11,27 @@
       color: #34af23;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    #services {
+      display: none;
+    }
+
+    #aboutus {
+      display: none;
+    }
+
+    #img-logo {
+      width: 40vw;
+    }
+  }
 }
 
 .navbar-transparent {
+  #img-logo {
+    width: 15vw;
+  }
+
   .nav-link {
     text-transform: uppercase;
     text-decoration: none;
@@ -26,6 +42,20 @@
     i {
       font-size: 1.3rem;
       color: #34af23;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #services {
+      display: none;
+    }
+
+    #aboutus {
+      display: none;
+    }
+
+    #img-logo {
+      width: 40vw;
     }
   }
 }
