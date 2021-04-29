@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "reactstrap";
 
 import Logo from '../../assets/img/chama-orig.png';
+import TikTok from '../../assets/img/tik-tok.png';
 import "./aboutUs.scss";
   
 function AboutUs() {
@@ -29,7 +30,11 @@ function AboutUs() {
                         <br/> <br />
                         <a href="https://api.whatsapp.com/send?phone=5511982619325" target="blank">
                             <i className="fa fa-whatsapp"></i>
-                             +55 11 98261-9325
+                            +55 11 98261-9325
+                        </a>
+                        <a href="https://vm.tiktok.com/ZMeQJPALe/" target="blank" className="tiktok">
+                            <img src={TikTok} alt="tiktok"/>
+                            @rf2gas
                         </a>
                     </Col>
                     <Col>
