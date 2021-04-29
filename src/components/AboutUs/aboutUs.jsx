@@ -53,9 +53,6 @@ function AboutUs() {
                     </Col>
                     <Col md={2} />
                 </Row>
-                <Row>
-                    
-                </Row>
             </Container>
         </div>
     );
