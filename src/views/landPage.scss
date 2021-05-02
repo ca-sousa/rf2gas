@@ -9,14 +9,14 @@
     color: var(--color-secundary);
     font-size: 12px;
     font-weight: 700;
-    padding-left: 40%;
-  }
+    padding-left: 42%;
 
-  a {
-    color: var(--color-secundary);
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 11px;
-    padding-left: 35%;
+    @media screen and (max-width: 768px) {
+      padding-left: 15%;
+
+      p {
+        font-size: 10px;
+      }
+    }
   }
 }

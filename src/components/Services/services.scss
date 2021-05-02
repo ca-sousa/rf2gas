@@ -20,4 +20,26 @@
       font-size: 14.5px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-3 {
+      padding-bottom: 4%;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    .card {
+      height: 100%;
+
+      img {
+        height: 50%;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
 }

@@ -16,8 +16,7 @@ function Services() {
       <Container fluid>
         <h1>Serviços</h1>
         <Row>
-          <Col sm={1}/>
-          <Col>
+          <Col sm={3}>
             <Card>
               <CardImg top width="100%" src={Pipe} alt="Tubulação" />
               <CardBody>
@@ -28,7 +27,7 @@ function Services() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
+          <Col sm={3}>
             <Card>
               <CardImg top width="100%" src={Gas} alt="Card image cap" />
               <CardBody>
@@ -38,7 +37,7 @@ function Services() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
+          <Col sm={3}>
             <Card>
               <CardImg top width="100%" src={Estanqueidade} alt="Card image cap" />
               <CardBody>
@@ -48,7 +47,7 @@ function Services() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
+          <Col sm={3}>
             <Card>
               <CardImg top width="100%" src={Aquecedor} alt="Card image cap" />
               <CardBody>
@@ -59,7 +58,6 @@ function Services() {
               </CardBody>
             </Card>
           </Col>
-          <Col sm={1}/>
         </Row>
       </Container>
     </div>

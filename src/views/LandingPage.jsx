@@ -15,11 +15,8 @@ function LandingPage() {
       <AboutUs />
         <div className="how-made">
           <p>
-            Copyright © 2021. Todos os direitos reservados a RF2Gás.
+            2021 © RF2Gás. Todos os direitos reservados.
           </p>
-          <a href="https://github.com/ca-sousa" target="blank"> 
-              Feito por ca-sousa
-          </a>
         </div>
     </>
   );
