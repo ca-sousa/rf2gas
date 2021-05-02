@@ -19,17 +19,23 @@ function AboutUs() {
                         <img src={Logo} alt="logo"/>
                     </Col>
                 </Row>
-                <Row className="footer">
-                    <Col md={2}/>
+                <Row className="title">
+                    <Col md={2} />
                     <Col>
                         <h3>Conheça nossas redes sociais</h3>
+                    </Col>
+                    <Col md={2} />
+                </Row>
+                <Row className="footer">
+                    <Col md={2} />
+                    <Col>
                         <a href="https://www.instagram.com/rf2gas/" target="blank">
-                            <i className="fa fa-instagram"></i>
+                            <i className="fa fa-instagram" />
                             @rf2gas
                         </a>
                         <br/> <br />
                         <a href="https://api.whatsapp.com/send?phone=5511982619325" target="blank">
-                            <i className="fa fa-whatsapp"></i>
+                            <i className="fa fa-whatsapp" />
                             +55 11 98261-9325
                         </a>
                         <a href="https://vm.tiktok.com/ZMeQJPALe/" target="blank" className="tiktok">
@@ -40,12 +46,12 @@ function AboutUs() {
                     <Col>
                         <div className="second-column">
                             <a href="https://www.facebook.com/RF2GAS" target="blank">
-                                <i className="fa fa-facebook"></i>
+                                <i className="fa fa-facebook" />
                                 /rf2gas
                             </a>
                             <br/> <br />
                             <a href="mailto:rf2gas@gmail.com?subject=Orçamento%20RF2Gás" target="blank">
-                                <i className="fa fa-envelope"></i>
+                                <i className="fa fa-envelope" id="mail"/>
                                 rf2gas@gmail.com
                             </a>
                             <p>Atendimento 24h</p>
