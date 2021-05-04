@@ -54,6 +54,14 @@ function AboutUs() {
                                 <i className="fa fa-envelope" id="mail"/>
                                 rf2gas@gmail.com
                             </a>
+                        </div>
+                    </Col>
+                    <Col md={2} />
+                </Row>
+                <Row className="info">
+                    <Col md={2} />
+                    <Col md={8}>
+                        <div className="info">
                             <p>Atendimento 24h</p>
                         </div>
                     </Col>

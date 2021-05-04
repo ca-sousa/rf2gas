@@ -22,12 +22,16 @@
   }
 
   @media screen and (max-width: 768px) {
+    padding-top: 20%;
+    padding-bottom: 6%;
+
     .col-sm-3 {
-      padding-bottom: 4%;
+      padding-bottom: 6%;
     }
 
     h1 {
       font-size: 28px;
+      padding-bottom: 5%;
     }
 
     .card {
@@ -37,8 +41,14 @@
         height: 50%;
       }
 
+      h5 {
+        font-size: 17px;
+      }
+      h6 {
+        font-size: 16px;
+      }
       p {
-        font-size: 15px;
+        font-size: 14.5px;
       }
     }
   }
