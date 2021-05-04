@@ -16,6 +16,7 @@ function NavbarLand() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
 
   React.useEffect(() => {
+    console.log('Feito por ca-sousa')
     const updateNavbarColor = () => {
       if (
         document.documentElement.scrollTop > 850 ||
