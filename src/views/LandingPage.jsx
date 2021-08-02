@@ -15,7 +15,7 @@ function LandingPage() {
       <AboutUs />
         <div className="how-made">
           <p>
-            2021 © RF2Gás. Todos os direitos reservados.
+            {new Date().getFullYear()} © RF2Gás. Todos os direitos reservados.
           </p>
         </div>
     </>
