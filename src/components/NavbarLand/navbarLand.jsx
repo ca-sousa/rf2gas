@@ -51,12 +51,12 @@ function NavbarLand() {
             <img src={Logo}  alt="rf2gas" id="img-logo"/> 
           </NavbarBrand>
           <Nav className="nav-a">
-            <NavItem id="services">
+            <NavItem>
               <NavLink href="#services">
                 Serviços
               </NavLink>
             </NavItem>
-            <NavItem id="aboutus">
+            <NavItem>
               <NavLink href="#aboutus" >
                 Quem Somos
               </NavLink>
